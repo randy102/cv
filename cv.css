@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+
+.container-cv{
+    width:1400px;
+    margin:0 auto;
+}
+
+.avatar-bg{
+    width: 75%;
+    margin:0px auto;
+    margin-top:100px;
+    background: url('./img/bg.png') no-repeat;
+    background-size:contain, cover;
+    padding: 30px;
+}
+
+.avatar-bg img{
+    width:100%;
+    border-radius: 50%;
+}
+
+.name-bg{
+    width: 75%;
+    margin: 0 auto;
+    background: url(./img/name-bg.png) no-repeat;
+    background-size: cover;
+    padding: 80px;
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.info-wrap{
+    width:100%;
+}
+
+.info{
+    width: 100%;
+    background: url('./img/title.png') no-repeat;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 33px;
+    font-family: cursive;
+    font-weight:bold;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 25px 0px;
+    padding-left:55px;
+}
+
+.des{
+    color: black;
+    font-family:  cursive;
+    margin: 15px auto;
+    text-align: justify;
+    padding:0 10px;
+    font-size: 25px;
+}
+
+.big-text{
+    width: 100%;
+    background: url(./img/text.png) no-repeat;
+    background-size: cover;
+    padding: 150px 135px;
+    padding-top: 174px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    opacity: 0.9;
+    margin-top: 100px;
+}
+
+.proj-des{
+    width:100%;
+    color:black;
+    font-family: 'Leckerli One', cursive;
+    margin:10px 0;
+    text-align:center;
+    font-size:40px;
+}
+
+.small{
+    font-size:28px;
+    font-family:  cursive;
+}
+
+.year{
+    font-family: 'Leckerli One', cursive;
+    width: 35%;
+    margin: 0 auto;
+    margin-top:50px;
+    background: url(./img/name-bg.png) no-repeat;
+    background-size: cover;
+    padding: 78px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.link{
+    width: 100%;
+    background: url(./img/link.png) no-repeat;
+    background-size: contain,cover;
+    padding: 60px;
+    padding-top: 45px;
+    font-family: cursive; 
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 25px auto;
+}
+
+.link a{
+    color:black;
+}
